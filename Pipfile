@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+fastapi-utils = "*"
+pydantic = {extras = ["email"], version = "*"}
+bcrypt = "*"
+beanie = "*"
+datetime = "*"
+
+[dev-packages]
+autopep8 = "*"
+jupyterlab = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+nltk = "*"
+
+[requires]
+python_version = "3.8"
